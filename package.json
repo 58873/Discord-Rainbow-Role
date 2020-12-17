@@ -14,8 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "discord.js": "^11.2.1",
-    "enmap": "^5.2.4"
-
+    "enmap": "^5.2.4",
     "franc": "^5.0.0",
     "node-notifier": "^7.0.0",
     "open": "^7.0.3",
