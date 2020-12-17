@@ -4,6 +4,23 @@ const config = require('./config.json');
 const Enmap = require("enmap");
 const fs = require("fs")
 
+const Twit = require('twit')
+const notifier = require('node-notifier');
+const open = require('open');
+const franc = require('franc')
+
+const apikey = 'xxx'
+const apiSecretKey = 'xxx'
+const accessToken = 'xxx'
+const accessTokenSecret = 'xxx'
+
+var T = new Twit({
+  consumer_key:         apikey,
+  consumer_secret:      apiSecretKey,
+  access_token:         accessToken,
+  access_token_secret:  accessTokenSecret,
+});
+
 bot.on('ready', () => {
   console.log(`Logged in as ${client.user.username}!`);
 })
